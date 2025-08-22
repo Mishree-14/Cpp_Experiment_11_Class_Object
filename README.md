@@ -24,13 +24,69 @@ To compare different approaches and understand the advantages of encapsulation a
 
 ## Theory
 
-In C++, a class is a user-defined data type that acts as a blueprint. It can contain:
+In C++, Object-Oriented Programming (OOP) allows us to design programs using objects that represent real-world entities. The main pillars of OOP are Classes, Objects, Encapsulation, Abstraction, Inheritance, and Polymorphism. In this experiment, we focus on Classes, Objects, Encapsulation, and Abstraction.
 
-Data Members → Variables such as length, width, height.
+### Class and Object
 
-Member Functions → Functions that operate on these variables, such as calculating the volume.
+A class is a blueprint or template that defines the structure and behavior of objects.
 
-An object is an instance of a class. Each object has its own data members, but the structure is defined by the class.
+Data members (variables) store the state of the object, while member functions define the behavior or operations on that data.
+
+An object is an instance of a class, which means each object has its own copy of the data members but uses the same member functions.
+
+Example: In the Cuboid class, length, width, and height are data members, and volume() is a member function. Each cuboid object can store different dimensions but can use the same volume() function to calculate its volume.
+
+### Encapsulation
+
+Encapsulation is the process of wrapping data and functions together in a class.
+
+It helps protect data by controlling access using access specifiers (public, private, protected).
+
+In our experiment, using private variables with a public volume() method ensures that the dimensions cannot be modified directly, reducing errors.
+
+### Abstraction
+
+Abstraction hides unnecessary implementation details from the user.
+
+Users interact with public methods like getVolume() or display(), without worrying about how the calculation is performed internally.
+
+This makes programs simpler to use and understand.
+
+### Reusability and Modularity
+
+Member functions can be reused for multiple objects. For example, volume() can calculate volume for any cuboid object without rewriting the formula.
+
+Modular code improves readability, maintainability, and reduces redundancy.
+
+### Data Members and Member Functions
+
+Data Members: Variables storing object properties (length, width, height).
+
+Member Functions: Functions that operate on these data members. They can take input, process data, or return values.
+
+In this experiment:
+
+input() → Takes user input for dimensions.
+
+volume() → Calculates volume using stored dimensions.
+
+display() → Shows the result to the user.
+
+### Observations from Different Approaches
+
+Using public data members directly is easy but not secure.
+
+Using methods for input and calculation improves interactivity and modularity.
+
+Using private data members with public methods is best practice, ensures encapsulation, and prevents accidental modification of data.
+
+### Importance of Classes in Real-World Programming
+
+Classes help model real-world objects in software.
+
+They allow multiple objects to coexist with different states but shared behaviors.
+
+They form the foundation for advanced OOP concepts like inheritance and polymorphism.
 
 ### Key Concepts learned:
 
