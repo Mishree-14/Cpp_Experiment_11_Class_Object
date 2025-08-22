@@ -47,8 +47,8 @@ Abstraction → Hiding implementation details (e.g., keeping dimensions private 
 | Program Version                          | Input Method                 | Data Members Access | Volume Calculation Method | Output Example |
 |------------------------------------------|------------------------------|-------------------|---------------------------|----------------|
 | User_Input_Volume_using_ClassMethod      | User enters values via method | Public            | Member method `volume()`  | Volume of cuboid displayed after input |
-| Volume_using_Class_Cuboid.cpp            | Values directly assigned      | Public            | Formula in `main()`       | Volume calculated directly |
-| vol_of_Cuboid_Class_Method.cpp           | Values initialized inside class | Public          | Member method `volume()`  | Volume returned by function |
+| Volume_using_Class_Cuboid                | Values directly assigned      | Public            | Formula in `main()`       | Volume calculated directly |
+| vol_of_Cuboid_Class_Method               | Values initialized inside class | Public          | Member method `volume()`  | Volume returned by function |
 | Cuboid with Encapsulation (Private data) | Values private, method public | Private           | Public method `volume()`  | Volume securely calculated |
 
 
