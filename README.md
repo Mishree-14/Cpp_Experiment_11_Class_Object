@@ -32,7 +32,7 @@ Member Functions → Functions that operate on these variables, such as calculat
 
 An object is an instance of a class. Each object has its own data members, but the structure is defined by the class.
 
-Key Concepts learned in this experiment:
+### Key Concepts learned:
 
 Encapsulation → Wrapping of data and functions together.
 
