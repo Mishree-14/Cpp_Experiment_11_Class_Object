@@ -107,6 +107,74 @@ Abstraction → Hiding implementation details (e.g., keeping dimensions private 
 | vol_of_Cuboid_Class_Method               | Values initialized inside class | Public          | Member method `volume()`  | Volume returned by function |
 | Cuboid with Encapsulation (Private data) | Values private, method public | Private           | Public method `volume()`  | Volume securely calculated |
 
+## Algorithms 
+### User Input of Volume using Class and Method
+
+Start.
+
+Define a class Cuboid with public data members length, width, height.
+
+Define a member function input() to take values from the user.
+
+Define a member function volume() to calculate length * width * height.
+
+Define a member function display() to show the calculated volume.
+
+Create an object of Cuboid.
+
+Call input() to get user input.
+
+Call volume() and display() to calculate and show the volume.
+
+Stop.
+
+### Volume using Class Cuboid (Direct Assignment)
+
+Start.
+
+Define a class Cuboid with public data members length, width, height.
+
+Create an object of Cuboid and assign values directly to data members.
+
+In main(), calculate volume using length * width * height.
+
+Display the calculated volume.
+
+Stop.
+
+### Vol of Cuboid (Values Initialized in Object)
+
+Start.
+
+Define a class Cuboid with public data members length, width, height.
+
+Create a constructor or initialize values inside the object.
+
+Define a member function volume() that returns length * width * height.
+
+Create an object of Cuboid.
+
+Call volume() and display the result.
+
+Stop.
+
+### Cuboid with Encapsulation (Private Data)
+
+Start.
+
+Define a class Cuboid with private data members length, width, height.
+
+Define a public method setDimensions(l, w, h) to assign values.
+
+Define a public method volume() to calculate and return length * width * height.
+
+Create an object of Cuboid.
+
+Call setDimensions() to assign values.
+
+Call volume() to get and display the calculated volume.
+
+Stop
 
 ## Program Descriptions
 
